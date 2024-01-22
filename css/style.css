@@ -1,973 +1,892 @@
 header {
-    width: 100%;
-    height: 3,75rem;
-  }
-  .Logo img {
-    color: royalblue;
-    width: 55px;
-    height: 60px; }
-  .navbar ul {
-    display: block;
-    width: 100%;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: end; 
-  .navbar a {
+  width: 100%;
+  height: 3,75rem; }
+
+.Logo img {
+  color: royalblue;
+  width: 55px;
+  height: 60px; }
+
+.navbar ul {
+  display: block;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: end; }
+  .navbar ul .navbar a {
     width: 60px;
     height: 3,75rem;
     text-decoration: none;
     text-align: center;
     color: black;
-    font-family: 'Times New Roman', Times, serif; 
-  .navbar a:hover {
-    background-color: #b1b1cf;
-    height: 3,75rem;
-    padding: 25px;
-    color: white; 
-  nav {
-    display: flex;
-    align-items: row; 
-  }
-  }
-  }
-  }
-  
-  .bg-image {
-    background-repeat: no-repeat;
-    background-size: cover; }
-    div a{
-      width: 100%;
-    }
-      .marquee {
-        font-size: clamp(4vw, 4rem, 8vw);
-        overflow: hidden;
-        animation: slideleft 30s non-linear repeat;
-      .marquee--long { 
-        font-size: 1.25rem; 
-      .marquee span {   
-        display: inline-block;
-         width: var(--tw);
-         text-shadow: var(--tw) 0 currentColor, 
-                      calc(var(--tw) * 2) 0 currentColor, 
-                      calc(var(--tw) * 3) 0 currentColor,
-                      calc(var(--tw) * 4) 0 currentColor;
-         will-change: repeat;
-         animation: marquee var(--ad) linear infinite;
-      .marquee:hover span {
-         animation-play-state: running infinite;}
-      }
-    }
-      }
-  
-     @keyframes marquee {
-         0% { transform: translateX(0); }
-         100% { transform: translateX(-100%); }
-      }
-      
-      @media (prefers-reduced-motion: reduce) {
-       .marquee span {
-         animation: none;
-         text-shadow: none;
-         width: auto;
-         display: block;
-         line-height: 1.5;
-         text-align: center;
-         white-space: normal;
-         display: repeat infinite
-       }
-      }
-
-      *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box
-      }
-      
-    /*INDEX.HTML*/
-    
-      header{
-        width: 100%;
-        height: 3,75rem;
-      }
-    
-      .Logo img{
-        color: royalblue;
-        width: 55px;
-        height: 60px;
-      }
-      
-      .navbar ul{
-        display: block;
-        width: 100%;
-        flex-direction: row;
+    font-family: 'Times New Roman', Times, serif; }
+    .navbar ul .navbar a .navbar a:hover {
+      background-color: #b1b1cf;
+      height: 3,75rem;
+      padding: 25px;
+      color: white; }
+      .navbar ul .navbar a .navbar a:hover nav {
         display: flex;
-        align-items: center;
-        justify-content: end;
-      }
-      
-      
-      .navbar a{
+        align-items: row; }
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+div a {
+  width: 100%; }
+
+.marquee {
+  font-size: clamp(4vw, 4rem, 8vw);
+  overflow: hidden;
+  animation: slideleft 30s non-linear repeat; }
+  .marquee .marquee--long {
+    font-size: 1.25rem; }
+    .marquee .marquee--long .marquee span {
+      display: inline-block;
+      width: var(--tw);
+      text-shadow: var(--tw) 0 currentColor, calc(var(--tw) * 2) 0 currentColor, calc(var(--tw) * 3) 0 currentColor, calc(var(--tw) * 4) 0 currentColor;
+      will-change: repeat;
+      animation: marquee var(--ad) linear infinite; }
+      .marquee .marquee--long .marquee span .marquee:hover span {
+        animation-play-state: running infinite; }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(-100%); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee span {
+    animation: none;
+    text-shadow: none;
+    width: auto;
+    display: block;
+    line-height: 1.5;
+    text-align: center;
+    white-space: normal;
+    display: repeat infinite; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*INDEX.HTML*/
+header {
+  width: 100%;
+  height: 3,75rem; }
+
+.Logo img {
+  color: royalblue;
+  width: 55px;
+  height: 60px; }
+  .Logo img nav {
+    display: flex;
+    align-items: row; }
+    .Logo img nav .navbar ul {
+      display: block;
+      width: 100%;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      justify-content: end; }
+      .Logo img nav .navbar ul .navbar a {
         width: 60px;
         height: 3,75rem;
         text-decoration: none;
         text-align: center;
         color: black;
-        font-family: 'Times New Roman', Times, serif;
-      }
-      
-      .navbar a:hover{
-      background-color: rgb(177, 177, 207);
-      height: 3,75rem;
-      padding: 25px;
-      color: white;
-    }
-      
-      nav{
-        display: flex;
-        align-items: row;
-      }
-    
-      .bg-image{
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      
-      h2{
-        color: lightgray;
-        font-family: 'Times New Roman', Times, serif;
-      }
-      
-      main img{
-        height: 150px;
-        width: 150x;
-      }
-      
-      section a{
-        display: flex;
-        justify-items: center;
-        flex-direction: row
-      }
-      
-      footer{
-        background-color: slateblue;
-        margin: 0;
-        padding: 0;
-      }
-      
-      .barraInferior button{
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        align-items: end
-        
-      }
-      
-      .barraInferior ul{
-        display: block;
-        width: 100px;
-        text-decoration: none;
-        text-align: center;
-        color: black;
-        text-transform: bold;
-        font-family: helvetica;
-        display: flex;
-        align-items: end;
-      }
-      
-      .reel{
-        display: flex;
-        align-items: row;
-        flex-direction: row;
-        mask-repeat: repeat;
-      }
-      
-      img.magician{
-        width: 90px;
-        height: 90px
-      }
-      
-      img.moon{
-        width: 90px;
-        height: 90px
-      }
-      
-      img.tree{
-        width:60px;
-        height: 90px;
-      }
-      
-      img.pendulum{
-        width: 90px;
-        height: 90px;
-      }
-      
-      h2{
-        text-align: center;
-      }
-      p{
-        width: 100%;
-        color:rgb(170, 130, 27);
-        font-family:'Times New Roman', Times, serif;
-        font-size: 70px;
-        text-align: center;
-      }
-      
-    
-      footer ul li button{
-        background-color: black;
-        margin: 0;
-        width: 100%;
-        text-decoration: none;
-        font-family:'Times New Roman', Times, serif
-      }
-      
-      button a{
-        text-decoration: none;
-        display: flex;
-        flex-direction: row;
-      }
-      
-      button:hover{
-        background-color: white;
-      font-family:'Times New Roman', Arial Narrow, sans-serif;
-      }
-      
-      div a{
-      width: 100%
-      }
-      
-      .marquee {
-        font-size: clamp(4vw, 4rem, 8vw);
-        overflow: hidden;
-        animation: slideleft 30s non-linear repeat;
-      }
-      
-      .marquee--long { 
-        font-size: 1.25rem; 
-      }
-      
-      .marquee span {   
-        display: inline-block;
-         width: var(--tw);
-         text-shadow: var(--tw) 0 currentColor, 
-                      calc(var(--tw) * 2) 0 currentColor, 
-                      calc(var(--tw) * 3) 0 currentColor,
-                      calc(var(--tw) * 4) 0 currentColor;
-        
-         will-change: repeat;
-         animation: marquee var(--ad) linear infinite;
-      }
-      
-      .marquee:hover span {
-         animation-play-state: running infinite;
-      }
-      
-      @keyframes marquee {
-         0% { transform: translateX(0); }
-         100% { transform: translateX(-100%); }
-      }
-      
-      @media (prefers-reduced-motion: reduce) {
-       .marquee span {
-         animation: none;
-         text-shadow: none;
-         width: auto;
-         display: block;
-         line-height: 1.5;
-         text-align: center;
-         white-space: normal;
-         display: repeat infinite
-       }
-      }
-      
-      @media(max-width: 1024px){
-        body{
-          width: 100%;
-        height: 100%;}
-        p{
-          width: 100%;
-          color:goldenrod;
-          font-family:'Times New Roman', Times, serif;
-          font-size: 40px;
-          text-align: center;
-      }
-      footer{
-        justify-content: flex-end;
-      
-      }
-      }
-      
-      @media(max-width: 768px){
-      .contenedor-principal{ width: 100%;
-      height: 100%;}
-      .navbar ul{justify-content: right;
-      }
-      nav a img{
-        display: flex;
-        justify-content: left;
-        flex-wrap: nowrap;
-      }
-      .navbar{
-        flex-wrap: nowrap;
-        
-      }
-      p{
-        width: 100%;
-        color:goldenrod;
-        font-family:'Times New Roman', Times, serif;
-        font-size: 25px;
-        text-align: center;
-    }
-    }
-      
-      
-      @media(max-width: 425px){
-        body{
-          width: 100%;
-        height: 100%;}
-        p{
-          width: 100%;
-          color:goldenrod;
-          font-family:'Times New Roman', Times, serif;
-          font-size: 19px;
-          text-align: center;
-      }
-      footer{
-        justify-content: flex-end;
-      }
-    }
-      
-      @media(max-width: 375px){
-        body{
-          width: 100%;
-        height: 100%;}
-        p{
-          width: 100%;
-          color:goldenrod;
-          font-family:'Times New Roman', Times, serif;
-          font-size: 18px;
-          text-align: center;
-      }
-      footer{
-        justify-content: flex-end;
-      }
-    }
-    
-    /*ANIMATION.HTML*/
-    
-    .body_tree {
-      margin: 0;
-      overflow: hidden;
-      background-image: url("../assets/binah.gif");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    #showreel-container {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    #essay-container {
-      position: absolute;
-      width: 60%;
-      height: 60%;
-      background: rgba(243, 237, 217, 0.9);
-      padding: 20px;
-      border-radius: 10px;
-      overflow: auto;
-      text-align: justify;
-    }
-    
-    .body_tree #showreel-container .text_tree{
-      color: black;
-      font-size:larger;
-      text-align: center;
-      padding: 30px;
-      border-radius: 10px;
-      overflow: auto;
-      text-align: justify;
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    
-    @media (max-width: 425px){
-      .body_tree {
-        margin: 0;
-        overflow: hidden;
-        background-image: url("../assets/binah.gif");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 28.5% 70%;
-        height: 100%;
-      }
-    
-      .body_tree #showreel-container h1{
-        font-size:medium;
-      }
-      .body_tree #showreel-container .text_tree{
-        color: black;
-        font-size:medium;
-        text-align: center;
-        padding: 30px;
-        border-radius: 10px;
-        overflow: auto;
-        text-align: justify;
-      }
-    }
-    
-    @media (max-width: 425px){
-      .body_tree {
-        margin: 0;
-        overflow: hidden;
-        background-image: url("../assets/binah.gif");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 30.5% 70%;
-        height: 100%;
-      }
-    
-      /*ENTER.HTML*/
-    
-     .enter_main{
-        background-image: url("../assets/orb.gif");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 100%;
-        height: 59em;
-      }
-      button{
-        margin-left: 47%;
-        margin-top: 28%;
-        background-color: black;
-        color: black;
-        text-decoration: none;
-      }
-      a h1{
+        font-family: 'Times New Roman', Times, serif; }
+        .Logo img nav .navbar ul .navbar a .navbar a:hover {
+          background-color: #b1b1cf;
+          height: 3,75rem;
+          padding: 25px;
+          color: white; }
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+h2 {
+  color: lightgray;
+  font-family: 'Times New Roman', Times, serif; }
+
+main img {
+  height: 150px;
+  width: 150x; }
+
+section a {
+  display: flex;
+  justify-items: center;
+  flex-direction: row; }
+
+footer {
+  background-color: slateblue;
+  margin: 0;
+  padding: 0; }
+
+.barraInferior button {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: end; }
+
+.barraInferior ul {
+  display: block;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  text-transform: bold;
+  font-family: helvetica;
+  display: flex;
+  align-items: end; }
+
+.reel {
+  display: flex;
+  align-items: row;
+  flex-direction: row;
+  mask-repeat: repeat; }
+
+img.magician {
+  width: 90px;
+  height: 90px; }
+
+img.moon {
+  width: 90px;
+  height: 90px; }
+
+img.tree {
+  width: 60px;
+  height: 90px; }
+
+img.pendulum {
+  width: 90px;
+  height: 90px; }
+
+h2 {
+  text-align: center; }
+
+p {
+  width: 100%;
+  color: #aa821b;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+  text-align: center; }
+
+footer ul li button {
+  background-color: black;
+  margin: 0;
+  width: 100%;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif; }
+
+button a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row; }
+
+button:hover {
+  background-color: white;
+  font-family: 'Times New Roman', Arial Narrow, sans-serif; }
+
+div a {
+  width: 100%; }
+
+.marquee {
+  font-size: clamp(4vw, 4rem, 8vw);
+  overflow: hidden;
+  animation: slideleft 30s non-linear repeat; }
+
+.marquee--long {
+  font-size: 1.25rem; }
+
+.marquee span {
+  display: inline-block;
+  width: var(--tw);
+  text-shadow: var(--tw) 0 currentColor, calc(var(--tw) * 2) 0 currentColor, calc(var(--tw) * 3) 0 currentColor, calc(var(--tw) * 4) 0 currentColor;
+  will-change: repeat;
+  animation: marquee var(--ad) linear infinite; }
+
+.marquee:hover span {
+  animation-play-state: running infinite; }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(-100%); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee span {
+    animation: none;
+    text-shadow: none;
+    width: auto;
+    display: block;
+    line-height: 1.5;
+    text-align: center;
+    white-space: normal;
+    display: repeat infinite; } }
+
+@media (max-width: 1024px) {
+  body {
+    width: 100%;
+    height: 100%; }
+  p {
+    width: 100%;
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center; }
+  footer {
+    justify-content: flex-end; } }
+
+@media (max-width: 768px) {
+  .contenedor-principal {
+    width: 100%;
+    height: 100%; }
+  .navbar ul {
+    justify-content: right; }
+  nav a img {
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap; }
+  .navbar {
+    flex-wrap: nowrap; }
+  p {
+    width: 100%;
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center; } }
+
+@media (max-width: 425px) {
+  body {
+    width: 100%;
+    height: 100%; }
+  p {
+    width: 100%;
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    text-align: center; }
+  footer {
+    justify-content: flex-end; } }
+
+@media (max-width: 375px) {
+  body {
+    width: 100%;
+    height: 100%; }
+  p {
+    width: 100%;
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center; }
+  footer {
+    justify-content: flex-end; } }
+
+/*ANIMATION.HTML*/
+.body_tree {
+  margin: 0;
+  overflow: hidden;
+  background-image: url("../assets/binah.gif");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#showreel-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#essay-container {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  background: rgba(243, 237, 217, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+  text-align: justify; }
+
+.body_tree #showreel-container .text_tree {
+  color: black;
+  font-size: larger;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  overflow: auto;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+@media (max-width: 425px) {
+  .body_tree {
+    margin: 0;
+    overflow: hidden;
+    background-image: url("../assets/binah.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 28.5% 70%;
+    height: 100%; }
+  .body_tree #showreel-container h1 {
+    font-size: medium; }
+  .body_tree #showreel-container .text_tree {
+    color: black;
+    font-size: medium;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    overflow: auto;
+    text-align: justify; } }
+
+@media (max-width: 425px) {
+  .body_tree {
+    margin: 0;
+    overflow: hidden;
+    background-image: url("../assets/binah.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30.5% 70%;
+    height: 100%; }
+  /*ENTER.HTML*/
+  .enter_main {
+    background-image: url("../assets/orb.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 59em; }
+  button {
+    margin-left: 47%;
+    margin-top: 28%;
+    background-color: black;
+    color: black;
+    text-decoration: none; }
+  a h1 {
     font-family: 'Times New Roman', Times, serif;
     color: indigo;
     text-shadow: none;
     text-decoration: none;
-    background-color: black;
-      }
-      }
-    
-      /*STORE.HTML*/
-    
-      .body_store {
-                margin: 0;
-                background-color: firebrick;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-image: url("../assets/kabbala.png");
-                background-size:cover;
-                background-repeat: no-repeat;
-                height: 150em;
-            }
-    
-            .tree-container {
-                position: relative;
-                width: 100%;
-                height: 100vh;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-    
-            .circle-link {
-                position: absolute;
-                background-color: rgba(255, 255, 255, 0.7);
-                border-radius: 50%;
-                width: 100px;
-                height: 100px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                font-size: 16px;
-                color: black;
-                text-decoration: none;
-                transition: transform 0.3s;
-            }
-    
-            .circle-link:hover {
-                transform: scale(1.1);
-                background-color: goldenrod;
-            }
-            
-            .circle-link:nth-child(1) { top: -50%; left: 47%; }
-            .circle-link:nth-child(2) { top: -12%; left: 82%; }
-            .circle-link:nth-child(3) { top: -12%; left: 12%; }
-            .circle-link:nth-child(4) { top: 63%; left: 12%; }
-            .circle-link:nth-child(5) { top: 63%; left: 81%; }
-            .circle-link:nth-child(6) { top:101%; left: 47%; }
-            .circle-link:nth-child(7) { top: 180%; left: 47%; }
-            .circle-link:nth-child(8) { top: 140%; left: 81%; }
-            .circle-link:nth-child(9) { top: 140%; left: 12%; }
-            .circle-link:nth-child(10) { top: 217%; left: 47%; }
-    
-            @media (max-width: 1440px){
-              .circle-link:nth-child(1) { top: -70%; left: 46.5%; }
-            .circle-link:nth-child(2) { top: -36.5%; left: 82%; }
-            .circle-link:nth-child(3) { top: -36.5%; left: 12%; }
-            .circle-link:nth-child(4) { top: 30%; left: 12%; }
-            .circle-link:nth-child(5) { top: 30%; left: 81%; }
-            .circle-link:nth-child(6) { top:60%; left: 46.5%; }
-            .circle-link:nth-child(7) { top: 127%; left: 46.5%; }
-            .circle-link:nth-child(8) { top: 95%; left: 81%; }
-            .circle-link:nth-child(9) { top: 95%; left: 12%; }
-            .circle-link:nth-child(10) { top: 190%; left: 46.5%; }
-            }
-    
-            @media (max-width: 1024px){
-              .body_store{ 
-                margin: 0;
-                background-color: firebrick;
-                display: flex;
-                justify-content: left;
-                align-items: center;
-                background-image: url("../assets/kabbala.png");
-                background-size:auto;
-                background-repeat: no-repeat;
-                height: 150em;
-            }
-            .circle-link:nth-child(1) { top: -79%; left: 41%; }
-            .circle-link:nth-child(2) { top: -57.5%; left: 72%; }
-            .circle-link:nth-child(3) { top: -57.5%; left: 10%; }
-            .circle-link:nth-child(4) { top: -15%; left: 10%; }
-            .circle-link:nth-child(5) { top: -15.5%; left: 72%; }
-            .circle-link:nth-child(6) { top:5.5%; left: 40.5%; }
-            .circle-link:nth-child(7) { top: 49%; left: 40.5%; }
-            .circle-link:nth-child(8) { top: 27%; left: 72%; }
-            .circle-link:nth-child(9) { top: 27%; left: 10%; }
-            .circle-link:nth-child(10) { top: 90%; left: 40.5%; }
-            }
-    
-            /*US.HTML*/
-    
-            .body_us {
-              font-family: Arial, sans-serif;
-              margin: 0;
-              padding: 0;
-              background-color: #0f0cb1;
-            }
-          
-            .header_us {
-              background-color: #333;
-              color: #fff;
-              text-align: center;
-              padding: 1em 0;
-            }
-          
-            .main_us {
-              max-width: 600px;
-              margin: 20px auto;
-              padding: 20px;
-              background-color: #fff;
-              box-shadow: 0 0 10px rgba(138, 12, 223, 0.1);
-              border-radius: 5px;
-            }
-          
-            label {
-              display: block;
-              margin-bottom: 8px;
-            }
-          
-            input,
-            textarea {
-              width: 100%;
-              padding: 8px;
-              margin-bottom: 16px;
-              box-sizing: border-box;
-            }
-          
-            button {
-              background-color: #333333;
-              color: #fff;
-              padding: 10px 20px;
-              border: none;
-              border-radius: 3px;
-              cursor: pointer;
-            }
-          
-        /*TAROT.HTML*/
-    
-        .body_tarot {
-          margin: 0;
-          padding: 0;
-          background: url('dark-background.jpg') no-repeat center center fixed;
-          background-size: cover;
-          color: #fff;
-      }
-      
-      .header_tarot {
-          background-color: rgba(0, 0, 0, 0.8);
-          padding: 10px;
-          text-align: center;
-      }
-      
-      .cart {
-          float: right;
-          margin-top: -40px;
-          position: relative;
-      }
-      
-      .cart img {
-          width: 30px;
-          height: 30px;
-          cursor: pointer;
-      }
-      
-      .cart-count {
-          background-color: red;
-          color: #fff;
-          border-radius: 50%;
-          padding: 5px 8px;
-          position: absolute;
-          top: -5px;
-          right: -5px;
-      }
-      
-      .main_tarot {
-          background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Rosy_Cross_color.png/640px-Rosy_Cross_color.png");
-          background-color: black;
-          background-repeat: no-repeat;
-          background-position: center;
-          display: flex;
-          justify-content: space-around;
-          padding: 20px;
-          height: 700px;
-        }
-    
-      .product {
-          text-align: center;
-          margin: 20px;
-          background-color: rgba(0, 0, 0, 0.6);
-          padding: 15px;
-          border-radius: 10px;
-      }
-      
-      .product img {
-          height: 250px;
-          max-width: 100%;
-          border: 1px solid #ddd;
-          border-radius: 5px;
-      }
-      
-      .price {
-          color: #fff;
-          font-size: medium;
-      }
-      
-      .back{
-            background-color: #FFD700;
-            color: #333;
-            padding: 10px 20px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-          }
-      
-          button:hover {
-            background-color: #FFC300;
-          }
-      
-          .footer_tarot{
-            height: 120px;
-            padding: 10px 20px;
-            font-size: 16px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            color: #333333;
-          }
-    
-        .footer_tarot  .forward{
-            background-color: #FFD700;
-            color: #333;
-          }
-    
-    /*PENDULUM.HTML*/
-    
-    .body_pendulum {
-      margin: 0;
-      padding: 0;
-      background-color: aquamarine;
-      background-size: cover;
-      color: #fff;
-      font-family: 'Arial', sans-serif;
-    }
-    
-    .header_pendulum {
-      background-color: rgba(0, 0, 0, 0.8);
-      padding: 20px;
-      text-align: center;
-    }
-    
-    .main_pendulum {
-      background-image: url(https://i.pinimg.com/originals/ab/6b/df/ab6bdff88d4c584422cc8ada133f8fea.gif);
-      padding: 20px;
-      height: 700px;
-      justify-content: center;
-    }
-    
-    .product {
-      text-align: center;
-      margin: 20px;
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 15px;
-      border-radius: 10px;
-      display: inline-block;
-    }
-    
-    .product img {
-      height: 250px;
-      max-width: 100%;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-    }
-    
-    .price {
-      color: #fff;
-    }
-    
-    .footer_tarot {
-      background-color: rgba(0, 0, 0, 0.8);
-      text-align: center;
-      padding: 20px;
-    }
-    
-    .add-to-cart {
-      background-color: #FFD700;
-      color: #333;
-      padding: 10px 20px;
-      font-size: 16px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    
-    /*BIJOUTERIE.HTML*/
-    
-    .body_bijouterie {
-      margin: 0;
-      padding: 0;
-      color: #fff;
-    }
-    
-    .header_bijouterie {
-      background-color: rgba(0, 0, 0, 0.8);
-      padding: 10px;
-      text-align: center;
-    }
-    
-    .header_bijouterie button a{
-              text-decoration: none;
-          }
-    
-    .header_bijouterie span{
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    .cart {
-      float: right;
-      margin-top: -40px;
-      position: relative;
-    }
-    
-    .cart img {
-      width: 30px;
-      height: 30px;
-      cursor: pointer;
-    }
-    
-    .cart-count {
-      background-color: rgb(27, 150, 142);
-      color: #fff;
-      border-radius: 50%;
-      padding: 5px 8px;
-      top: -5px;
-      right: -5px;
-    }
-    
-    .main_bijouterie {
-      background-image: url(https://i.redd.it/glla87b1nc4a1.gif);
-      padding: 20px;
-      height: 700px;
-      justify-content: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-size: auto;
-      display: flex;
-      align-content: center;
-      justify-content: center;
-    }
-    
-    .product {
-      text-align: center;
-      margin: 20px;
-      height: 360px;
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 15px;
-      border-radius: 10px;
-    }
-    
-    .product img {
-      height: 250px;
-      max-width: 100%;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-    }
-    
-    .price {
-      color: #fff;
-    }
-    
-    .footer_bijouterie {
-      background-color: rgba(0, 0, 0, 0.8);
-      text-align: center;
-      padding: 10px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-    
-    .back{
-        background-color: #FFD700;
-        color: #333;
-        padding: 10px 20px;
-        font-size: 16px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-      }
-    
-      .forward:hover {
-        background-color: #FFC300;
-      }
-    
-      /*ORACLE.HTML*/
-    
-      .body_oracle {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .header_oracle {
-        background-color: rgb(202, 191, 37);
-        padding: 20px 0;
-        text-align: center;
-    }
-    
-    .brand {
-        font-size: 2em;
-        margin-bottom: 10px;
-    }
-    
-    .cart {
-        float: right;
-        position: relative;
-    }
-    
-    .cart img {
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-    }
-    
-    .cart-count {
-        background-color: rgb(235, 0, 0);
-        color: #fff;
-        border-radius: 50%;
-        padding: 8px;
-        position: absolute;
-        top: -8px;
-        right: -8px;
-        font-size: 1.2em;
-    }
-    
-    .main_oracle {
-        background-image: url("https://www.estambul.net/wp-content/uploads/2015/08/Oraculo-de-Delfos.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 671px;
-    }
-    
-    .product {
-        text-align: center;
-        height: 400px;
-        margin: 20px;
-        background-color: rgba(0, 0, 0, 0.7);
-        padding: 15px;
-        border-radius: 10px;
-        width: 250px;
-    }
-    
-    .product img {
-        height: 200px;
-        max-width: 100%;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-    }
-    
-    h2 {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-    }
-    
-    .price {
-        color: #fff;
-        font-size: 1.2em;
-    }
-    
-    .add-to-cart {
-        background-color: #dde027;
-        color: #fff;
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-top: 10px;
-        transition: background-color 0.3s ease;
-    }
-    
-    .add-to-cart:hover {
-        background-color: #2980b9;
-    }
-    
-    .footer_oracle {
-        background-color: #000000cc;
-        text-align: center;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-    
-    .back{
-      background-color: #FFD700; /* Golden yellow */
-      color: #a82323;
-      padding: 10px 20px;
-      font-size: 16px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    
-    .forward:hover {
-      background-color: #FFC300;
-    }
-    
+    background-color: black; } }
+
+/*STORE.HTML*/
+.body_store {
+  margin: 0;
+  background-color: firebrick;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/kabbala.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150em; }
+
+.tree-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.circle-link {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  transition: transform 0.3s; }
+
+.circle-link:hover {
+  transform: scale(1.1);
+  background-color: goldenrod; }
+
+.circle-link:nth-child(1) {
+  top: -50%;
+  left: 47%; }
+
+.circle-link:nth-child(2) {
+  top: -12%;
+  left: 82%; }
+
+.circle-link:nth-child(3) {
+  top: -12%;
+  left: 12%; }
+
+.circle-link:nth-child(4) {
+  top: 63%;
+  left: 12%; }
+
+.circle-link:nth-child(5) {
+  top: 63%;
+  left: 81%; }
+
+.circle-link:nth-child(6) {
+  top: 101%;
+  left: 47%; }
+
+.circle-link:nth-child(7) {
+  top: 180%;
+  left: 47%; }
+
+.circle-link:nth-child(8) {
+  top: 140%;
+  left: 81%; }
+
+.circle-link:nth-child(9) {
+  top: 140%;
+  left: 12%; }
+
+.circle-link:nth-child(10) {
+  top: 217%;
+  left: 47%; }
+
+@media (max-width: 1440px) {
+  .circle-link:nth-child(1) {
+    top: -70%;
+    left: 46.5%; }
+  .circle-link:nth-child(2) {
+    top: -36.5%;
+    left: 82%; }
+  .circle-link:nth-child(3) {
+    top: -36.5%;
+    left: 12%; }
+  .circle-link:nth-child(4) {
+    top: 30%;
+    left: 12%; }
+  .circle-link:nth-child(5) {
+    top: 30%;
+    left: 81%; }
+  .circle-link:nth-child(6) {
+    top: 60%;
+    left: 46.5%; }
+  .circle-link:nth-child(7) {
+    top: 127%;
+    left: 46.5%; }
+  .circle-link:nth-child(8) {
+    top: 95%;
+    left: 81%; }
+  .circle-link:nth-child(9) {
+    top: 95%;
+    left: 12%; }
+  .circle-link:nth-child(10) {
+    top: 190%;
+    left: 46.5%; } }
+
+@media (max-width: 1024px) {
+  .body_store {
+    margin: 0;
+    background-color: firebrick;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url("../assets/kabbala.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 150em; }
+  .circle-link:nth-child(1) {
+    top: -79%;
+    left: 41%; }
+  .circle-link:nth-child(2) {
+    top: -57.5%;
+    left: 72%; }
+  .circle-link:nth-child(3) {
+    top: -57.5%;
+    left: 10%; }
+  .circle-link:nth-child(4) {
+    top: -15%;
+    left: 10%; }
+  .circle-link:nth-child(5) {
+    top: -15.5%;
+    left: 72%; }
+  .circle-link:nth-child(6) {
+    top: 5.5%;
+    left: 40.5%; }
+  .circle-link:nth-child(7) {
+    top: 49%;
+    left: 40.5%; }
+  .circle-link:nth-child(8) {
+    top: 27%;
+    left: 72%; }
+  .circle-link:nth-child(9) {
+    top: 27%;
+    left: 10%; }
+  .circle-link:nth-child(10) {
+    top: 90%;
+    left: 40.5%; } }
+
+/*US.HTML*/
+.body_us {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0f0cb1; }
+
+.header_us {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0; }
+
+.main_us {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(138, 12, 223, 0.1);
+  border-radius: 5px; }
+
+label {
+  display: block;
+  margin-bottom: 8px; }
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box; }
+
+button {
+  background-color: #333333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer; }
+
+/*TAROT.HTML*/
+.body_tarot {
+  margin: 0;
+  padding: 0;
+  background: url("dark-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff; }
+
+.header_tarot {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  text-align: center; }
+
+.cart {
+  float: right;
+  margin-top: -40px;
+  position: relative; }
+
+.cart img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer; }
+
+.cart-count {
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 8px;
+  position: absolute;
+  top: -5px;
+  right: -5px; }
+
+.main_tarot {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Rosy_Cross_color.png/640px-Rosy_Cross_color.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  height: 700px; }
+
+.product {
+  text-align: center;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px; }
+
+.product img {
+  height: 250px;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px; }
+
+.price {
+  color: #fff;
+  font-size: medium; }
+
+.back {
+  background-color: #FFD700;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; }
+
+button:hover {
+  background-color: #FFC300; }
+
+.footer_tarot {
+  height: 120px;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #333333; }
+
+.footer_tarot .forward {
+  background-color: #FFD700;
+  color: #333; }
+
+/*PENDULUM.HTML*/
+.body_pendulum {
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Arial', sans-serif; }
+
+.header_pendulum {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center; }
+
+.main_pendulum {
+  background-image: url(https://i.pinimg.com/originals/ab/6b/df/ab6bdff88d4c584422cc8ada133f8fea.gif);
+  padding: 20px;
+  height: 700px;
+  justify-content: center; }
+
+.product {
+  text-align: center;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block; }
+
+.product img {
+  height: 250px;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px; }
+
+.price {
+  color: #fff; }
+
+.footer_tarot {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 20px; }
+
+.add-to-cart {
+  background-color: #FFD700;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; }
+
+/*BIJOUTERIE.HTML*/
+.body_bijouterie {
+  margin: 0;
+  padding: 0;
+  color: #fff; }
+
+.header_bijouterie {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  text-align: center; }
+
+.header_bijouterie button a {
+  text-decoration: none; }
+
+.header_bijouterie span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.cart {
+  float: right;
+  margin-top: -40px;
+  position: relative; }
+
+.cart img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer; }
+
+.cart-count {
+  background-color: #1b968e;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 8px;
+  top: -5px;
+  right: -5px; }
+
+.main_bijouterie {
+  background-image: url(https://i.redd.it/glla87b1nc4a1.gif);
+  padding: 20px;
+  height: 700px;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center; }
+
+.product {
+  text-align: center;
+  margin: 20px;
+  height: 360px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px; }
+
+.product img {
+  height: 250px;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px; }
+
+.price {
+  color: #fff; }
+
+.footer_bijouterie {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+.back {
+  background-color: #FFD700;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; }
+
+.forward:hover {
+  background-color: #FFC300; }
+
+/*ORACLE.HTML*/
+.body_oracle {
+  margin: 0;
+  padding: 0; }
+
+.header_oracle {
+  background-color: #cabf25;
+  padding: 20px 0;
+  text-align: center; }
+
+.brand {
+  font-size: 2em;
+  margin-bottom: 10px; }
+
+.cart {
+  float: right;
+  position: relative; }
+
+.cart img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer; }
+
+.cart-count {
+  background-color: #eb0000;
+  color: #fff;
+  border-radius: 50%;
+  padding: 8px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 1.2em; }
+
+.main_oracle {
+  background-image: url("https://www.estambul.net/wp-content/uploads/2015/08/Oraculo-de-Delfos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 671px; }
+
+.product {
+  text-align: center;
+  height: 400px;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px; }
+
+.product img {
+  height: 200px;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px; }
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px; }
+
+.price {
+  color: #fff;
+  font-size: 1.2em; }
+
+.add-to-cart {
+  background-color: #dde027;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease; }
+
+.add-to-cart:hover {
+  background-color: #2980b9; }
+
+.footer_oracle {
+  background-color: #000000cc;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+.back {
+  background-color: #FFD700;
+  /* Golden yellow */
+  color: #a82323;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; }
+
+.forward:hover {
+  background-color: #FFC300; }
