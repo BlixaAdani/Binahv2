@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: aquamarine;
+      background-size: cover;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .product {
+      text-align: center;
+      margin: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 15px;
+      border-radius: 10px;
+      width: 250px;
+      display: inline-block;
+    }
+
+    .product img {
+      height: 250px;
+      max-width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .price {
+      color: #fff;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 20px;
+    }
+
+    button {
+      background-color: #FFD700;
+      color: #333;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #FFC300;
+    }
+  </style>
+  <title>Esoteric Pendulums Store</title>
+</head>
+<body>
+  <header>
+    <button onclick="goBack()"><a href="store.html">Go back</button></a>
+    <h1>Esoteric Pendulums Store</h1>
+  </header>
+  <main>
+    <section class="product">
+      <img src="../assets/ametist.jpg" alt="Pendulum 1">
+      <h2>Amethyst Pendulum</h2>
+      <p class="price">$24.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="../assets/rose.webp" alt="Pendulum 2">
+      <h2>Rose Quartz Pendulum</h2>
+      <p class="price">$29.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </section>
+    <section class="product">
+      <img src="../assets/clear.webp" alt="Pendulum 3">
+      <h2>Clear Quartz Pendulum</h2>
+      <p class="price">$19.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </section>
+  </main>
+</body>
+</html>

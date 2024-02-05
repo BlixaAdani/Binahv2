@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Binah Online Store</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        color: #fff;
+        font-family: 'Arial', sans-serif;
+    }
+
+    header {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .brand {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .cart {
+        float: right;
+        position: relative;
+    }
+
+    .cart img {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .cart-count {
+        background-color: red;
+        color: #fff;
+        border-radius: 50%;
+        padding: 8px;
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        font-size: 1.2em;
+    }
+
+    main {
+        background-image: url("https://www.estambul.net/wp-content/uploads/2015/08/Oraculo-de-Delfos.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px;
+        height: 700px;
+    }
+
+    .product {
+        text-align: center;
+        height: 400px;
+        margin: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 15px;
+        border-radius: 10px;
+        width: 250px;
+    }
+
+    .product img {
+        height: 200px;
+        max-width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .price {
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    .add-to-cart {
+        background-color: #3498db;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .add-to-cart:hover {
+        background-color: #2980b9;
+    }
+
+    footer {
+        background-color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .back{
+      background-color: #FFD700; /* Golden yellow */
+      color: #333;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #FFC300;
+    }
+</style>
+<body>
+    <header>
+        <button onclick="goBack()" class="back"><a href="./store.html">Go Back</button></a>
+        <div class="brand">Binah Oracle Cards</div>
+        <div class="cart">
+            <img src="cart-icon.png" alt="Shopping Cart">
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+    <main>
+        <section class="product">
+            <img src="../assets/lenor.jpg" alt="Tarot Deck 1">
+            <h2>Lenormand</h2>
+            <p class="price">7000$</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </section>
+        <section class="product">
+            <img src="../assets/light.webp" alt="Tarot Deck 2" height="200px">
+            <h2>Lightseers</h2>
+            <p class="price">7000$</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </section>
+        <section class="product">
+            <img src="../assets/psy.jpg" alt="Tarot Deck 3">
+            <h2>Psychic</h2>
+            <p class="price">7000$</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </section>
+    </main>
+</body>
+</html>
